@@ -5,7 +5,7 @@ git add  *Herhangi bir dosyayi veya herhangi bir klasörü versiyon kontrol sist
 git commit  *SnapShot almak için kullandigimiz bunu onaylamak için kullandigimiz yapi.  
 **:q yaptigimizda commitimizi iptal ediyoruz.()
 
-git log  * Projedeki commit geçmişini görünlememizi sağlar. Bütün commitler, idsi, yazarı , tarihi ve mesakı ile beraber listelenir.
+git log  * Projedeki commit geçmişini görünlememizi saglar. Bütün commitler, idsi, yazari , tarihi ve mesaki ile beraber listelenir.
 
 git diff **En son alinan commit SnapShot işleminden sonraki tüm degişiklikleri gösterecektir.
 
@@ -23,11 +23,11 @@ git checkout projelerinizin içerisinde birden fazla yapi çalişiyorsa bunlar a
 git rm --cached <dosya adi>  * dosyalari veya klasörleri silmek için kullanilan yapi.
 
 U = untrack 
-M = bu harf dosyanin değiştiğini ifade ediyor.
+M = bu harf dosyanin degiştigini ifade ediyor.
 
-git branch  * Local ve ya rm repository üzerinde yeni bir branch (dal) eklemek, silmek veya listelemek için kullanılır. git branch <branch_name>
+git branch  * Local ve ya rm repository üzerinde yeni bir branch (dal) eklemek, silmek veya listelemek için kullanilir. git branch <branch_name>
 
-git merge  *Başka bir branchda olan değişiklikleri, bulunduğumuz branch ile birleştirmek istediğimizde kullanılır.
+git merge  *Başka bir branchda olan degişiklikleri, bulundugumuz branch ile birleştirmek istedigimizde kullanilir.
 
 
 
