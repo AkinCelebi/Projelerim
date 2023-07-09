@@ -1,0 +1,53 @@
+git init  *ilk defa projeleri oluştururken kullandığımız komutumuz
+
+git add  herhangi bir dosyayı veya herhangi bir klasörü versiyon kontrol sistemi için, takip için ekleyebiliyoruz.
+
+git commit  *SnapShot almak için kullandığımız bunu onaylamak için kullandığımız yapı. 
+
+git status  *Yapılan değişiklikleri görebiliyoruz.
+
+git push uzak bilgisayara , sunucuya gönder.
+
+git pull  *uzak bilgisayardan git ve bu proje klasörünü çek geri getir.
+
+git clone  *projenin kopyasını alabilmemiz için kullanılan yapı
+
+git checkout projelerinizin içerisinde birden fazla yapı çalışıyorsa bunlar arasında geçiş yapabiliyoruz.
+
+git rm  * dosyaları veya klasörleri silmek için kullanılan yapı.
+
+
+Yazılım dehası Bill Gates çok kitap okuyan, okuduklarını iyi şekilde hatırlayan ve konuşmaları sırasında okuduğu kitaplardan alıntılar yapan bir şahsiyet. Bu kadar okuma yapıp da okuduklarını aklında detaylı şekilde nasıl tuttuğu sorulduğunda Bill Gates;
+Bir konuda okumaya başlamadan önce konu hakkında genel bilgi sahibi olmayı ve konunun tarihini incelemeyi öneriyor.
+
+Git sözlük anlamı Aptal Aşağılık Basit. Lünuxun mimari linus Torvadls linux çekirdeğini geliştirirken projenin yönetimi için o dönem piyasada bulunan BitKeeper adındaki versiyon kontrol sismini tercih etmiş falan Bitkeeper ın telif haklarını elinde tutan kişi ile yaşanan yasal sorunlardan ötürü bu kullanımdan vazgeçip kendi ihtiyaçlarına çözüm için kendi versiyon kontrol sismini yazmaya başlamıştır.ilk olarak 2005 yılında piyasaya sürüldü. 
+
+Git bir versiyon kontrol sistemidir. Versiyon kontrol sistemi, bir döküman üzerinde yaptığınız değişiklikleri adım adım izleyen, istediğinizde kayıt eden ve isterseniz bunu internet üzerindeki bir bilgisayar veya yerel bir cihazda ( respository /repo / depo) saklamanızı ve yönetmenizi sağlayan bir sistemdir.
+ 
+  Git bize ne sağlar
+   birden fazla yerde dosyalarınızı ve versiyon kontrol bilgilerinizi depolayabilirsiniz. Böylelikle cihazdan bağımsız olarak dosyalarınıza erişebilirsiniz.
+   " Commit " yaparak SnapShot (anlık görüntü) özelliği ile istediğiniz zaman proje veya dosyaların o anki halini kayıt altına alabilirsiniz. Böylelikle ileride bir haya ile karşılaşırsanız herhangi bir zamandaki herhangi bir versiyona dönüş yapabilirsiniz.
+   SnapShot aldıktan sonra değişiklik yapılan dosyaları görebilirsiniz.
+   Takımların aynı proje içerisinde beraber çalışmalarına imkan verir. 
+   Kim neyi düzenledi?
+   Ne ekledi?
+   Ne çıkarttı? 
+   Son değişiklik ne zaman yapıldı? gibi bilgilere erişebilirsiniz. Bu sayede topluluk proje geliştirme süreçlerini kolaylaştırabilirsiniz.
+   Projede versiyonlanmasını istemediğiniz dosyaları belirtebilirsiniz. (nude_modules, .mp4 ,log ,env gibi)
+        GIT i Anladım Fakat GitHub, GitLab, BitBucket Nedir?
+        *** En sade şekilde GIT version kontrol sistemini kulannan depolama servisleri diyebiliriz.***
+   GitHub 
+
+   Yazılımcılar için bir kod kütüphanesi ve bir çeşit sosyal medya ortamıdır.
+   Yazılım geliştiriciler projelerini halka açık veya özel olarak saklayabilir. Ücretli ve ücretsizdir.
+   GitLab 
+
+   GitHub gibi bir GIT servisidir. Farklı oalrak firmalara GitLab ı kendi sunucularına kurma imkanı verildği için genelde kurumsal tarafta kullanılır. GitLab ile firmalar kendi içerisinde GIT hizmetinden faydalanabilir.
+   BitBucket
+
+   Genelde kişisel kullanıma yöneliktir. GitHub tarafındaki açık kaynak projeler ve sosyal medya ortamı burada gelişmemiştir.
+
+
+
+
+
