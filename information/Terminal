@@ -1,7 +1,7 @@
-pwd komutu bize nerede olduğumuzu gösterir.
+pwd komutu bize nerede oldugumuzu gösterir.
 
-cd komutu ( change directory) Dizim değişim, komut satırında dizinler arasında geçiş yapmamıza olanak sağlıyor.
+cd komutu ( change directory) Dizim degişim, komut satirinda dizinler arasinda geçiş yapmamiza olanak sagliyor.
 cd den sonra dizinin ismini yazarsak dizinin içine girebiliriz.
-'cd .' dizinin içinde olduğumuz yeri gösterir. 'cd ..'  dizinin içerisinde olduğumuz yerden bir üst klasöre geri dönmemizi sağlar.
+'cd .' dizinin içinde oldugumuz yeri gösterir. 'cd ..'  dizinin içerisinde oldugumuz yerden bir üst klasöre geri dönmemizi saglar.
 
-mkdir make directory terminal sistemi üzerinden bulunduğumuz dizinde yeni bir doya açmamıza olanak sağlar .
+mkdir make directory terminal sistemi üzerinden bulundugumuz dizinde yeni bir doya açmamiza olanak saglar .
