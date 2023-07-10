@@ -22,8 +22,8 @@ git checkout projelerinizin içerisinde birden fazla yapi çalişiyorsa bunlar a
 
 git rm --cached <dosya adi>  * dosyalari veya klasörleri silmek için kullanilan yapi.
 
-U = untrack 
-M = bu harf dosyanin degiştigini ifade ediyor.
+U = untrack, takip edilmeyen anlamina geliyor.
+M = Modified bu harf dosyanin degiştigini ifade ediyor.
 
 git branch  * Local ve ya rm repository üzerinde yeni bir branch (dal) eklemek, silmek veya listelemek için kullanilir. git branch <branch_name>
 
