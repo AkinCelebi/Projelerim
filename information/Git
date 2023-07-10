@@ -76,4 +76,4 @@ Aşagidakileri versiyonlamak istemem.
   paket yöneticisi ile kurulmuş dosyalar
  Bu tarz dosyalar yer kapladigi için versiyon kontrol sisteminde tutmak istemeyiz. Bu tarz dosyalar projeye sonradan eklenebilecek dosyalardir.
     .gitignore dosyasi oluşturduktan sonra versiyon kontrol sisteminin bakmasini istemedigimiz yapilari burada tutabiliyoruz.
-     asdas
+    
