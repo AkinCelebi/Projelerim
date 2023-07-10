@@ -70,10 +70,10 @@ Git bir versiyon kontrol sistemidir. Versiyon kontrol sistemi, bir döküman üz
 Projelerin hepsini version kontrol sistemine eklemek istemeyebiliriz.
 
 Aşağıdakileri versiyonlamak istemem.
- # görseller
- # videolar
- # logolar
- # paket yöneticisi ile kurulmuş dosyalar
-# Bu tarz dosyalar yer kapladığı için versiyon kontrol sisteminde tutmak istemeyiz. Bu tarz dosyalar projeye sonradan eklenebilecek dosyalardır.
+  görseller
+  videolar
+  logolar
+  paket yöneticisi ile kurulmuş dosyalar
+ Bu tarz dosyalar yer kapladığı için versiyon kontrol sisteminde tutmak istemeyiz. Bu tarz dosyalar projeye sonradan eklenebilecek dosyalardır.
     .gitignore dosyası oluşturduktan sonra versiyon kontrol sisteminin bakmasını istemediğimiz yapıları burada tutabiliyoruz.
     
