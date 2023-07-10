@@ -24,6 +24,9 @@ git rm --cached <dosya adi>  * dosyalari veya klasörleri silmek için kullanila
 
 git add -A  *  tüm degişiklikleri staged (hazir) durumuna getirir ve bir sonraki commite dahil etmek için işaretler.
 
+git add .  * komutu ile tüm dosyaları tek seferde ekleyebiliyoruz. ( untrack olanlar dahil)
+
+
 U = untrack, takip edilmeyen anlamina geliyor.
 M = Modified bu harf dosyanin degiştigini ifade ediyor.
 
