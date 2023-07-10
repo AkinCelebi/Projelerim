@@ -22,6 +22,8 @@ git checkout projelerinizin içerisinde birden fazla yapi çalişiyorsa bunlar a
 
 git rm --cached <dosya adi>  * dosyalari veya klasörleri silmek için kullanilan yapi.
 
+git add -A  *  tüm değişiklikleri staged (hazir) durumuna getirir ve bir sonraki commite dahil etmek için işaretler.
+
 U = untrack, takip edilmeyen anlamina geliyor.
 M = Modified bu harf dosyanin degiştigini ifade ediyor.
 
