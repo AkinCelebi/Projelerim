@@ -5,3 +5,9 @@ cd den sonra dizinin ismini yazarsak dizinin içine girebiliriz.
 'cd .' dizinin içinde oldugumuz yeri gösterir. 'cd ..'  dizinin içerisinde oldugumuz yerden bir üst klasöre geri dönmemizi saglar.
 
 mkdir make directory terminal sistemi üzerinden bulundugumuz dizinde yeni bir doya açmamiza olanak saglar .
+
+rmdir remove directory dosya silmek
+
+type nul > <dosya ismi> yeni dosya oluşturmak
+
+del <dosya ismi> dosya silmek
