@@ -1,52 +1,69 @@
-# Bilinmesi gereken temel komutlar
-  ## git init  ilk kez proje oluştururken kullandık.
-  ## git add   <file>
-  ## git add . (all)
-  ## git commit -m 'açıklama'
-  ## git status
-  ## git diff 
-  ## git checkout branchname
-  ## git push
-  ## git clone
+# Bilinmesi Gereken Temel Komutlar
+  ## "git init"   ilk kez proje oluştururken kullandık.
+  ## "git add "   <file>
+  ## "git add " . (all)
+  ## "git commit -m 'açıklama'"
+  ## "git status"
+  ## "git diff " 
+  ## "git checkout branchname"
+  ## "git push"
+  ## "git clone"
+  ## "git commit --amend"
+  ## "git revert <commitID>"
+  ## "git log"
+  ## "git log -n"
+  ## "git reset --hard"
 
-# git init -- ilk defa projeleri oluştururken kullandigimiz komutumuz
+### git init -- ilk defa projeleri oluştururken kullandigimiz komutumuz
 
-# git add -- Herhangi bir dosyayi veya herhangi bir klasörü versiyon kontrol sistemi için, takip için ekleyebiliyoruz.
+### git add -- Herhangi bir dosyayi veya herhangi bir klasörü versiyon kontrol sistemi için, takip için ekleyebiliyoruz.
 
-# git commit -- SnapShot almak için kullandigimiz bunu onaylamak için kullandigimiz yapi.  
-# **:q yaptigimizda commitimizi iptal ediyoruz.
-  # git log --  Projedeki commit geçmişini görünlememizi saglar. Bütün commitler, idsi, yazari , tarihi ve mesaki ile beraber listelenir.
+### git commit -- SnapShot almak için kullandigimiz bunu onaylamak için kullandigimiz yapi. 
+### **:q yaptigimizda commitimizi iptal ediyoruz.
 
-# git diff -- En son alinan commit SnapShot işleminden sonraki tüm degişiklikleri gösterecektir.
+### "git commit --amend" komutu ile son commit yaptığımız dosya içerisindeki değişikliği, yeni commit oluşturmadan son commite eklemek.
+
+### "git commit --amend -m 'bu amend ile eklenmiş yeni bir mesaj'" bu komut ile commitin mesajını değiştirmiş oluruz.
+
+### git log --  Projedeki commit geçmişini görünlememizi saglar. Bütün commitler, idsi, yazari , tarihi ve mesaki ile beraber listelenir.
+### git log -n <1,2,3,4,5,> en üstteki 1. 2. 3.'yü bana getir anlamına geliyor.
+
+### git revert <commitID> git revert komutu commiti silmek için kullanılır. git log ile commitin id sinin baştan en az 7 olacak şekilde yazdığımızda o committeki değişikliği geri alacaktır. ### Revert komutuda revert edilebilir.
+
+### git reset --hard <commitID> komutu belirttiğimiz commitıd sine geri dönüş yapacak sonraki commitleri göstermeyecektir. Örnek olarak revert commitlerini silmek.
+
+### git diff -- En son alinan commit SnapShot işleminden sonraki tüm degişiklikleri gösterecektir.
+### "git diff <commitID1>..<commitID2> <dosya adı>" bu komut bize idsi yazılmış olan iki commit arasındaki yapılan değişiklikleri gösterir.
 
 
-# git status -- Üzerinde çalişilan projenin o anki durumu hakkinda bilgi verir. Yapilan degişiklikler, eklenen ve silinen dosyalar gibi bilgiler listelenir.
+### git status -- Üzerinde çalişilan projenin o anki durumu hakkinda bilgi verir. Yapilan degişiklikler, eklenen ve silinen dosyalar gibi bilgiler listelenir.
 
 
-# git rm --cached <dosya adi> -- dosyalari veya klasörleri silmek için kullanilan yapi.
+### git rm --cached <dosya adi> -- dosyalari veya klasörleri silmek için kullanilan yapi.
 
-# git add -A --  tüm degişiklikleri staged (hazir) durumuna getirir ve bir sonraki commite dahil etmek için işaretler.
+### git add -A --  tüm degişiklikleri staged (hazir) durumuna getirir ve bir sonraki commite dahil etmek için işaretler.
 
-# git add . --  komutu ile tüm dosyaları tek seferde ekleyebiliyoruz. ( untrack olanlar dahil)
+### git add . --  komutu ile tüm dosyaları tek seferde ekleyebiliyoruz. ( untrack olanlar dahil)
 
 
-# U = untrack, takip edilmeyen anlamina geliyor.
-# M = Modified bu harf dosyanin degiştigini ifade ediyor.
+### U = untrack, takip edilmeyen anlamina geliyor.
+### M = Modified bu harf dosyanin degiştigini ifade ediyor.
 
-# git checkout -- projelerinizin içerisinde birden fazla yapi çalişiyorsa bunlar arasinda geçiş yapabiliyoruz.,
+### git checkout -- projelerinizin içerisinde birden fazla yapi çalişiyorsa bunlar arasinda geçiş yapabiliyoruz.,
 
-# git branch -- Local ve ya rm repository üzerinde yeni bir branch (dal) eklemek, silmek veya listelemek için kullanilir. git branch <branch_name>
+### git branch -- Local ve ya rm repository üzerinde yeni bir branch (dal) eklemek, silmek veya listelemek için kullanilir. git branch <branch_name>
 
-# git merge --Başka bir branchda olan degişiklikleri, bulundugumuz branch ile birleştirmek istedigimizde kullanilir.
+### git merge --Başka bir branchda olan degişiklikleri, bulundugumuz branch ile birleştirmek istedigimizde kullanilir.
 
-# git remote add <name> <url> --Bir uzak depo eklemek için kullanılır
-# "git remote" -v -- veya-- "git remote" --verbose: Mevcut uzak depoların listesini ve URL'lerini görüntüler.
+### git remote add <name> <url> --Bir uzak depo eklemek için kullanılır
+### "git remote" -v -- veya-- "git remote" --verbose: Mevcut uzak depoların listesini ve URL'lerini görüntüler.
 
-# git push uzak bilgisayara , sunucuya gönder.
+### git push uzak bilgisayara , sunucuya gönder.
 
-# git pull -- uzak bilgisayardan git ve bu proje klasörünü çek geri getir.
+### git pull -- uzak bilgisayardan git ve bu proje klasörünü çek geri getir.
 
-# git clone -- projenin kopyasini alabilmemiz için kullanilan yapi
+### git clone -- projenin kopyasini alabilmemiz için kullanilan yapi
+
 
 Yazilim dehasi Bill Gates çok kitap okuyan, okuduklarini iyi şekilde hatirlayan ve konuşmalari sirasinda okudugu kitaplardan alintilar yapan bir şahsiyet. Bu kadar okuma yapip da okuduklarini aklinda detayli şekilde nasil tuttugu soruldugunda Bill Gates;
 Bir konuda okumaya başlamadan önce konu hakkinda genel bilgi sahibi olmayi ve konunun tarihini incelemeyi öneriyor.
