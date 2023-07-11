@@ -33,6 +33,8 @@
 
 # git merge --Başka bir branchda olan degişiklikleri, bulundugumuz branch ile birleştirmek istedigimizde kullanilir.
 
+# git remote add <name> <url> --Bir uzak depo eklemek için kullanılır
+# "git remote" -v -- veya-- "git remote" --verbose: Mevcut uzak depoların listesini ve URL'lerini görüntüler.
 
 
 Yazilim dehasi Bill Gates çok kitap okuyan, okuduklarini iyi şekilde hatirlayan ve konuşmalari sirasinda okudugu kitaplardan alintilar yapan bir şahsiyet. Bu kadar okuma yapip da okuduklarini aklinda detayli şekilde nasil tuttugu soruldugunda Bill Gates;
