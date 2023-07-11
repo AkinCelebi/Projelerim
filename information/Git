@@ -11,11 +11,6 @@
 
 # git status -- Üzerinde çalişilan projenin o anki durumu hakkinda bilgi verir. Yapilan degişiklikler, eklenen ve silinen dosyalar gibi bilgiler listelenir.
 
-# git push uzak bilgisayara , sunucuya gönder.
-
-# git pull -- uzak bilgisayardan git ve bu proje klasörünü çek geri getir.
-
-# git clone -- projenin kopyasini alabilmemiz için kullanilan yapi
 
 # git rm --cached <dosya adi> -- dosyalari veya klasörleri silmek için kullanilan yapi.
 
@@ -36,6 +31,11 @@
 # git remote add <name> <url> --Bir uzak depo eklemek için kullanılır
 # "git remote" -v -- veya-- "git remote" --verbose: Mevcut uzak depoların listesini ve URL'lerini görüntüler.
 
+# git push uzak bilgisayara , sunucuya gönder.
+
+# git pull -- uzak bilgisayardan git ve bu proje klasörünü çek geri getir.
+
+# git clone -- projenin kopyasini alabilmemiz için kullanilan yapi
 
 Yazilim dehasi Bill Gates çok kitap okuyan, okuduklarini iyi şekilde hatirlayan ve konuşmalari sirasinda okudugu kitaplardan alintilar yapan bir şahsiyet. Bu kadar okuma yapip da okuduklarini aklinda detayli şekilde nasil tuttugu soruldugunda Bill Gates;
 Bir konuda okumaya başlamadan önce konu hakkinda genel bilgi sahibi olmayi ve konunun tarihini incelemeyi öneriyor.
