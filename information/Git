@@ -1,38 +1,37 @@
-git init  *ilk defa projeleri oluştururken kullandigimiz komutumuz
+# git init -- ilk defa projeleri oluştururken kullandigimiz komutumuz
 
-git add  *Herhangi bir dosyayi veya herhangi bir klasörü versiyon kontrol sistemi için, takip için ekleyebiliyoruz.
+# git add -- Herhangi bir dosyayi veya herhangi bir klasörü versiyon kontrol sistemi için, takip için ekleyebiliyoruz.
 
-git commit  *SnapShot almak için kullandigimiz bunu onaylamak için kullandigimiz yapi.  
-**:q yaptigimizda commitimizi iptal ediyoruz.()
+# git commit -- SnapShot almak için kullandigimiz bunu onaylamak için kullandigimiz yapi.  
+# **:q yaptigimizda commitimizi iptal ediyoruz.
+  # git log --  Projedeki commit geçmişini görünlememizi saglar. Bütün commitler, idsi, yazari , tarihi ve mesaki ile beraber listelenir.
 
-git log  * Projedeki commit geçmişini görünlememizi saglar. Bütün commitler, idsi, yazari , tarihi ve mesaki ile beraber listelenir.
-
-git diff **En son alinan commit SnapShot işleminden sonraki tüm degişiklikleri gösterecektir.
-
-
-git status  *Üzerinde çalişilan projenin o anki durumu hakkinda bilgi verir. Yapilan degişiklikler, eklenen ve silinen dosyalar gibi bilgiler listelenir.
-
-git push uzak bilgisayara , sunucuya gönder.
-
-git pull  *uzak bilgisayardan git ve bu proje klasörünü çek geri getir.
-
-git clone  *projenin kopyasini alabilmemiz için kullanilan yapi
-
-git checkout projelerinizin içerisinde birden fazla yapi çalişiyorsa bunlar arasinda geçiş yapabiliyoruz.
-
-git rm --cached <dosya adi>  * dosyalari veya klasörleri silmek için kullanilan yapi.
-
-git add -A  *  tüm degişiklikleri staged (hazir) durumuna getirir ve bir sonraki commite dahil etmek için işaretler.
-
-git add .  * komutu ile tüm dosyaları tek seferde ekleyebiliyoruz. ( untrack olanlar dahil)
+# git diff -- En son alinan commit SnapShot işleminden sonraki tüm degişiklikleri gösterecektir.
 
 
-U = untrack, takip edilmeyen anlamina geliyor.
-M = Modified bu harf dosyanin degiştigini ifade ediyor.
+# git status -- Üzerinde çalişilan projenin o anki durumu hakkinda bilgi verir. Yapilan degişiklikler, eklenen ve silinen dosyalar gibi bilgiler listelenir.
 
-git branch  * Local ve ya rm repository üzerinde yeni bir branch (dal) eklemek, silmek veya listelemek için kullanilir. git branch <branch_name>
+# git push uzak bilgisayara , sunucuya gönder.
 
-git merge  *Başka bir branchda olan degişiklikleri, bulundugumuz branch ile birleştirmek istedigimizde kullanilir.
+# git pull -- uzak bilgisayardan git ve bu proje klasörünü çek geri getir.
+
+# git clone -- projenin kopyasini alabilmemiz için kullanilan yapi
+
+# git rm --cached <dosya adi> -- dosyalari veya klasörleri silmek için kullanilan yapi.
+
+# git add -A --  tüm degişiklikleri staged (hazir) durumuna getirir ve bir sonraki commite dahil etmek için işaretler.
+
+# git add . --  komutu ile tüm dosyaları tek seferde ekleyebiliyoruz. ( untrack olanlar dahil)
+
+
+# U = untrack, takip edilmeyen anlamina geliyor.
+# M = Modified bu harf dosyanin degiştigini ifade ediyor.
+
+# git checkout -- projelerinizin içerisinde birden fazla yapi çalişiyorsa bunlar arasinda geçiş yapabiliyoruz.,
+
+# git branch -- Local ve ya rm repository üzerinde yeni bir branch (dal) eklemek, silmek veya listelemek için kullanilir. git branch <branch_name>
+
+# git merge --Başka bir branchda olan degişiklikleri, bulundugumuz branch ile birleştirmek istedigimizde kullanilir.
 
 
 
