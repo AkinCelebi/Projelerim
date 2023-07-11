@@ -28,7 +28,7 @@
 ### git log --  Projedeki commit geçmişini görünlememizi saglar. Bütün commitler, idsi, yazari , tarihi ve mesaki ile beraber listelenir.
 ### git log -n <1,2,3,4,5,> en üstteki 1. 2. 3.'yü bana getir anlamına geliyor.
 
-### git revert <commitID> git revert komutu commiti silmek için kullanılır. git log ile commitin id sinin baştan en az 7 olacak şekilde yazdığımızda o committeki değişikliği geri alacaktır. ### Revert komutuda revert edilebilir.
+### git revert <commitID> git revert komutu, belirli bir commit'i geri almak için kullanılan bir Git komutudur. Bu komut, geçmişteki bir commit'in değişikliklerini geri alır ve yeni bir geri alma (revert) commit'i oluşturur. git log ile commitin id sinin baştan en az 7 olacak şekilde yazdığımızda o committeki değişikliği geri alacaktır. ### Revert komutuda revert edilebilir.
 
 ### git reset --hard <commitID> komutu belirttiğimiz commitıd sine geri dönüş yapacak sonraki commitleri göstermeyecektir. Örnek olarak revert commitlerini silmek.
 
@@ -49,11 +49,23 @@
 ### U = untrack, takip edilmeyen anlamina geliyor.
 ### M = Modified bu harf dosyanin degiştigini ifade ediyor.
 
-### git checkout -- projelerinizin içerisinde birden fazla yapi çalişiyorsa bunlar arasinda geçiş yapabiliyoruz.,
+### git checkout -- projelerinizin içerisinde birden fazla yapi çalişiyorsa bunlar arasinda geçiş yapabiliyoruz.
+### git checkout -b(branch) <branchName> bu komut bir branch oluşturur ve oluşturduğumuz bu branche geçiş yapar.
+
+### git branch -D <branchName> bu komut ile ismini yazmış olduğumuz branchi sileriz.
 
 ### git branch -- Local ve ya rm repository üzerinde yeni bir branch (dal) eklemek, silmek veya listelemek için kullanilir. git branch <branch_name>
 
+### git stash  bu komut bize en son yaptığımız commit ile yaptığımız değişiklikleri bir köşede saklayıp ihtiyacımız olduğunda bize getirmek.
+### git stash list saklananları gösterir
+### git stash pop en üstteki kaydı geri getirir ve diğerlerini de siler.Yani sakladığımız değişikliği silerek geri getirir.
+### git stash apply sakladıklarımızı geri getirir ve sakladığımız yerde listelenmeye devam eder.
+
 ### git merge --Başka bir branchda olan degişiklikleri, bulundugumuz branch ile birleştirmek istedigimizde kullanilir.
+### git merge --squash <branchName>  buluncuğumuz branch ile branchName yazdığımız brnach i birleştirir. Bize git merge den ayrı olarak commit yapma şansı verir.
+### git merge --abort merge geri alma. bunu yapınca birleşmenin öncesine gidiyor.
+
+### git rebase
 
 ### git remote add <name> <url> --Bir uzak depo eklemek için kullanılır
 ### "git remote" -v -- veya-- "git remote" --verbose: Mevcut uzak depoların listesini ve URL'lerini görüntüler.
