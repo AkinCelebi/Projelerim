@@ -10,7 +10,7 @@
   ## "git push"
   ## "git clone"
   ## "git commit --amend"
-  ## "git revert <commitID>"
+  ## "git revert <commitID>" revert' geri almak'
   ## "git log"
   ## "git log -n"
   ## "git reset --hard"
